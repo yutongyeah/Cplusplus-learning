@@ -1,0 +1,7 @@
+int i = -1, &r = 0;         非法， 引用的初始值只能指向对象
+int *const p2 = &i2;        *合法
+const int i = -1, &r = 0;   非法， 引用的初始值只能指向对象
+const int* const p3 = &i2;  合法
+const int* p1 = &i2;        *合法
+const int& const r2;        非法，引用不能是常量
+const int i2 = i, &r = i;   合法

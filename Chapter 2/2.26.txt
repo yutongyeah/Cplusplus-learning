@@ -1,0 +1,4 @@
+const int buf;        非法，声明常量时未初始化
+int cnt = 0;          合法
+const int sz = cnt;   合法
+++ cnt; ++sz;         非法，sz为常量，不能更改

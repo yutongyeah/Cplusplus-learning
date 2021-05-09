@@ -1,0 +1,4 @@
+int i = 0;  
+double* dp = &i;     非法，int的值不能转化为doube指针
+int* ip = i;         非法，缺少&符号
+int* p = &i;         合法

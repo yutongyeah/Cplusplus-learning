@@ -1,0 +1,3 @@
+int* ip, i, &r = i;      ip为int类型的指针；i为int类型的值；r为int类型的引用，初始值为i。
+int i, *p =0;            i为int类型的值；p为int类型的指针，初始值为0
+int* ip, ip2;            ip为int类型的指针；ip2为int型的值

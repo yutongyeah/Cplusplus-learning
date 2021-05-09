@@ -1,0 +1,4 @@
+"who goes with F\145rgus?\012"：\145表示小写字母“e”， \012表示换行符。
+3.14e1L：扩展浮点型，类型是long double
+1024f：单精度浮点型，类型是float
+3.14L：扩展浮点型，类型是long double

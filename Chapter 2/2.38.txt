@@ -1,0 +1,2 @@
+1.auto会忽略顶层const，但decltype不会。
+2.auto定义变量必须有初始值，但decltyple不一定

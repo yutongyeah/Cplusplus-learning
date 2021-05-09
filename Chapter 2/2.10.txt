@@ -1,0 +1,7 @@
+std::string g_str;           空字符串
+int g_int;                   0
+void test210 ()
+{
+    int local_int;           按标准局部变量不初始化，g++编译器下可能也会初始化为空
+     std::string local_str;
+}

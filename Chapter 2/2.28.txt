@@ -1,0 +1,5 @@
+int i, *const cp;       非法，常量未初始化 
+int *p1, *const p2;     非法，常量未初始化 
+const int ic, &r = ic;  非法，常量未初始化 
+const int *const p3;    非法，指针常量未初始化 
+const int *p;           合法

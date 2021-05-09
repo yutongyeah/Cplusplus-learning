@@ -1,0 +1,4 @@
+int ival = 1.01;     非法
+int &rval1 = 1.01;   非法
+int &rval2 = ival;   合法
+int &rval3;          非法

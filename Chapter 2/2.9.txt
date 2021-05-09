@@ -1,0 +1,4 @@
+std::cin >> int input_value; 错误，不能在输入输出语句中定义变量
+int i = { 3.14 }; 错误，不能使用浮点型初始化int变量
+double salary = wage = 9999.99; 错误，未定义wage
+int i = 3.14; 错误，不能使用浮点型初始化int变量
